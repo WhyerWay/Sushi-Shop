@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "a1880472-ac59-491f-81f8-6635e8a82404",
+		"name": "Modify",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cancel",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:9000/api/orders/5"
+			},
+			"response": []
+		},
+		{
+			"name": "Get status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:9000/api/orders/status"
+			},
+			"response": []
+		},
+		{
+			"name": "pause",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:9000/api/orders/1/pause"
+			},
+			"response": []
+		},
+		{
+			"name": "resume",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:9000/api/orders/1/resume"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "e1fa552e-533c-4f2b-b8bf-fa577eea8cee",
+		"name": "Create order",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "California Roll",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/orders?sushi_name=California Roll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"orders"
+					],
+					"query": [
+						{
+							"key": "sushi_name",
+							"value": "California Roll"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kamikaze Roll",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/orders?sushi_name=Kamikaze Roll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"orders"
+					],
+					"query": [
+						{
+							"key": "sushi_name",
+							"value": "Kamikaze Roll"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dragon Eye",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/orders?sushi_name=Dragon Eye",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"orders"
+					],
+					"query": [
+						{
+							"key": "sushi_name",
+							"value": "Dragon Eye"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Empty",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/orders?sushi_name=   ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"orders"
+					],
+					"query": [
+						{
+							"key": "sushi_name",
+							"value": "   "
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/orders?sushi_name=xxx",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"orders"
+					],
+					"query": [
+						{
+							"key": "sushi_name",
+							"value": "xxx"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
